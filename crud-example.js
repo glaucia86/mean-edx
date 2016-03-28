@@ -26,7 +26,7 @@ mongodb.MongoClient.connect(uri, function(error, db) {
         }
         
         var query = { year: 1975, rating: 'PG'}
-        db.collection(query).
+        db.collection('movies').
             find({ screenplay: 'Peter Benchley' }).
             toArray(function(err, docs){
                 if(err){
