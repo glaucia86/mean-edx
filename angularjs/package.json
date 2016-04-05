@@ -1,0 +1,9 @@
+{
+    "name": "angularjs",
+    "version": "0.1.0",
+    "devDependencies": {
+        "browserify": "10.2.3",
+        "gulp": "3.8.11",
+        "gulp-browserify": "0.5.1"
+    }
+}
